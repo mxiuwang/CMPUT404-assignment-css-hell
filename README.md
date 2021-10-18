@@ -12,6 +12,11 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+Summary of Changes 
+=================
+* removed the internal css from all 3 documents, moved it to `style.css`, kept some of the original styling, and added some new css styling.
+* changed background color, font, spacing, margins, text size, etc.
+
 License/Copyright
 =================
 

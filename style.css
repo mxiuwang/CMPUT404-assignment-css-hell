@@ -1,0 +1,120 @@
+header, .c1, .c2, .c3, .c4 {
+    text-align: center;
+    font-family: 'Courier New', Georgia, Courier, monospace;
+}
+div.titlepage {
+    text-align: center;
+    page-break-before: always;
+    page-break-after: always
+    }
+div.titlepage p {
+    text-align: center;
+    text-indent: 0;
+    line-height: 1.5;
+    margin-top: 3em
+    }
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    background-color: #fff5e6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    line-height: 150%;
+}
+table.c5 {
+    margin-left: auto;
+    margin-right: auto
+    }
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    font-size: 300%;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    letter-spacing: 0.12em;
+    word-spacing: 0.2em;
+    text-indent: 0
+    }
+h2 {
+    font-size: 175%;
+    margin-top: 2em;
+    margin-bottom: 2em
+    }
+h3 {
+    font-size: 150%;
+    margin-top: 2em
+    }
+h4 {
+    font-size: 120%
+    }
+h5 {
+    font-size: 110%
+    }
+hr {
+    width: 80%;
+    margin-top: 2em;
+    margin-bottom: 2em
+    }
+div.chapter {
+    page-break-before: always;
+    margin-top: 4em
+    }
+p {
+    text-indent: 0em;
+    margin-top: 1em;
+    margin-bottom: 0.25em
+    }
+p.poem {
+    text-indent: 0%;
+    margin-left: 10%;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: left;
+    font-style: italic;
+    }
+p.quote{
+    font-style: italic;
+}
+p.center {
+    text-align: center;
+    text-indent: 0;
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+a:link {
+    color: blue;
+    text-decoration: none
+    }
+a:visited {
+    color: blue;
+    text-decoration: none
+    }
+a:hover {
+    color: red
+    }
+div.c1, div.c2, div.c3, div.c4 {
+    text-align: center;
+    font-size: 0.8em;
+}
+div.c1 {
+    text-align: center;
+    font-weight: bold
+}
+div.c4 {
+    margin-bottom: 1em;
+}
+.ph1 {
+    font-size: 150%;
+    margin-bottom: 2em;
+}
+.c1 {
+    font-weight: bold;
+}
