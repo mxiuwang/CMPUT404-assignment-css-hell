@@ -1,0 +1,45 @@
+/* image */
+img {
+    border-radius: 8px;
+    max-width: 50%;
+    max-height: 50%;
+}
+div.flex_images{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    border: 1px solid green;
+    gap:0px
+}
+/* div.flex_logos{
+    max-width: 10%;
+    max-height: 10%;
+} */
+#profile_header {
+    text-align: center;
+    page-break-before: always;
+    page-break-after: always;
+}
+#github, #linkedin, #email {
+    display:inline;
+} 
+
+/* header */
+#name{
+    text-align: center;
+}
+
+/* table */
+td,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th{
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
