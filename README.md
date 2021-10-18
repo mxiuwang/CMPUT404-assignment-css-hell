@@ -26,4 +26,7 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-
+TODOs:
+* rename gutenberg html files to 1.html, 2.html, and 3.html
+* fix gutenberg/style.css brackets, remove default styling in html files
+* take screenshots of gutenberg and homepage projects
