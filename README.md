@@ -17,6 +17,10 @@ Summary of Changes
 * removed the internal css from all 3 documents, moved it to `style.css`, kept some of the original styling, and added some new css styling.
 * changed background color, font, spacing, margins, text size, etc.
 
+Sources
+=================
+* https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
+
 License/Copyright
 =================
 
