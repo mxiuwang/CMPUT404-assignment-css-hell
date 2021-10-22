@@ -17,20 +17,11 @@ Summary of Changes
 * removed the internal css from all 3 documents, moved it to `style.css`, kept some of the original styling, and added some new css styling.
 * changed background color, font, spacing, margins, text size, etc.
 
-Sources
-=================
-* https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
-
 License/Copyright
 =================
 
-Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
+Textual content is copyright Abram Hindle and Michelle Wang (C) 2013 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
-repository and (C) 2013 Abram Hindle visibile in the text.
+repository and (C) 2013 Abram Hindle and Michelle Wang visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
-
-TODOs:
-* rename gutenberg html files to 1.html, 2.html, and 3.html
-* fix gutenberg/style.css brackets, remove default styling in html files
-* take screenshots of gutenberg and homepage projects

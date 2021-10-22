@@ -26,6 +26,29 @@ img {
     width: 30%;
 }
 
+/* top navbar */
+/* https://www.w3schools.com/css/css_navbar_horizontal.asp */
+ul {
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff1515;
+    border-radius: 10px;
+  }
+.nav_li {
+    float: left;
+}
+.nav_li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 /* body */
 body{
     font-family: "Comic Sans MS";

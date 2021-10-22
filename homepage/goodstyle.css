@@ -3,6 +3,7 @@ img {
     border-radius: 8px;
     justify-content: center;
     text-align: center;
+    margin-top: 3%;
 }
 .flex_container{
     align-items: center;
@@ -16,6 +17,7 @@ img {
 .flex_logos {
     max-height: 5%;
     max-width: 5%;
+    filter: invert(100%);
 }
 #profile_header {
     align-items: center;
@@ -26,13 +28,50 @@ img {
     width: 30%;
 }
 
+/* header */
+.header_section{
+    overflow: hidden;
+    background-color: rgb(113, 154, 249);
+}
+#name{
+    text-align: center;
+    color:ivory;
+}
+
+/* navbar */
+/* https://www.w3schools.com/css/css_navbar_horizontal.asp */
+ul {
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+.nav_li {
+    float: left;
+}
+.nav_li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav_li a:hover {
+    color: rgb(113, 113, 252);
+}
+
 /* body */
 body{
-    font-family: 'Courier New', Courier, monospace;
-    margin-left: 30%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-right: 30%;
 }
 .block_container{
     margin-top: 5%;
+    margin-right: 10%;
 }
 .divider{
     width:80%;
@@ -46,18 +85,13 @@ body{
     position: fixed; 
     z-index: 1;
     top: 0; 
-    left: 0;
+    right: 0;
     background-color: #dddddd; 
     overflow-x: hidden; 
     padding-top: 20px;
 }
 .sidebar li, .sidebar h4 {
     padding: 6px 8px 6px 16px;
-}
-
-/* header */
-#name{
-    text-align: center;
 }
 
 /* table */
